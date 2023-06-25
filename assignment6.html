@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<script>
+function GetById1()
+{
+    document.getElementById("div1").innerHTML = document.getElementById("data1").value;
+}
+
+function GetById2()
+{
+    document.getElementById("div2").innerHTML = document.getElementById("data2").value;
+}
+
+function GetById3()
+{
+    document.getElementById("div3").innerHTML = document.getElementById("data3").value;
+}
+
+</script>
+
+<body>
+	<form id="form1">
+	<div>
+    	Enter Some Data Here:
+		<input type="text" id ="data1" value="" />
+        <br />
+		<input type="button" onclick="GetById1();" value = "Move the Data"/>
+		<div id="div1">
+		</div>
+        <br />
+        
+        Enter More Data Here:
+		<input type="text" id="data2" value="" />
+        <br />
+		<input type="button" onclick="GetById2();" value = "Move the Data"/>
+        <div id="div2">
+		</div>
+        <br />
+        
+		Enter Even More Data Here:
+		<input type="text" id="data3" value="" />
+		<br />
+		<input type="button" onclick="GetById3();" value = "Move the Data"/>
+        <div id="div3">
+		</div>
+        <br />
+	</div>
+	</form>
+    
+</body>
+</html>
+ 
+        
